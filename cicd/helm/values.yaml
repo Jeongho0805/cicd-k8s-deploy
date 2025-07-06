@@ -1,0 +1,11 @@
+image:
+  repository: parkjeongho/ci-cd-app
+  pullPolicy: IfNotPresent
+  tag: "20250629060329"
+
+replicaCount: 1
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
